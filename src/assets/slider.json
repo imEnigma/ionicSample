@@ -1,0 +1,17 @@
+{
+  "slider" : {
+    "controls" : {
+      "speed" : 1000,
+      "transitionDelay" : 1000,
+      "loop" : true,
+      "effect" : "fade"
+    },
+    "urls": [
+      {"img" : "../../assets/imgs/home1.jpg"},
+      {"img" : "../../assets/imgs/home2.jpg"},
+      {"img" : "../../assets/imgs/home3.jpg"},
+      {"img" : "../../assets/imgs/home4.jpg"},
+      {"img" : "../../assets/imgs/home5.jpg"}
+    ]
+  }
+}

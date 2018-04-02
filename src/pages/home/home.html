@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      KLM Royal Dutch Airlines
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content pager>
+  <ion-slides>
+    <ion-slide *ngFor="let slide of sliders">
+      <img src="{{slide.img}}" />
+    </ion-slide>
+    <div class="arrow left" (click)="slideLeft()">&lt;</div>
+    <div class="arrow right" (click)="slideRight()">&gt;</div>
+  </ion-slides>
+</ion-content>
